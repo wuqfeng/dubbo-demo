@@ -7,6 +7,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  * Created by wuqf on 16-11-13.
  */
 public class Consumer {
+
     public static void main(String[] args){
         ClassPathXmlApplicationContext context=new ClassPathXmlApplicationContext("dubbo-consumer.xml");
         context.start();
