@@ -11,6 +11,7 @@
     <name>demo-consumer Maven Webapp</name>
 
     <artifactId>demo-consumer</artifactId>
+    <packaging>war</packaging>
     <url>http://maven.apache.org</url>
     <dependencies>
         <dependency>
