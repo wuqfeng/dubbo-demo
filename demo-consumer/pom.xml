@@ -8,11 +8,9 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <name>demo-consumer Maven Webapp</name>
 
     <artifactId>demo-consumer</artifactId>
-    <packaging>war</packaging>
-    <url>http://maven.apache.org</url>
+
     <dependencies>
         <dependency>
             <groupId>com.git.wuqf</groupId>
@@ -69,7 +67,4 @@
             <artifactId>zookeeper</artifactId>
         </dependency>
     </dependencies>
-    <build>
-        <finalName>demo-consumer</finalName>
-    </build>
 </project>
