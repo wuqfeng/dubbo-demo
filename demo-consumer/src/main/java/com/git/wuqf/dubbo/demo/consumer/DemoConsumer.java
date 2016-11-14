@@ -21,7 +21,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class DemoConsumer {
 	
 		public static void main (String[]args){
-			ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("classpath:dubbo-demo-action.xml");
+			ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("classpath:dubbo-demo-*.xml");
 			context.start();
 			DemoService demoService = (DemoService) context.getBean("demoService");
 			String hello = demoService.sayHello("wuqf");
