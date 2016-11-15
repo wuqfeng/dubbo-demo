@@ -13,8 +13,8 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>demo-consumer</module>
-        <module>demo-provider</module>
+        <module>standalone-consumer</module>
+        <module>standalone-provider</module>
     </modules>
 
 </project>
