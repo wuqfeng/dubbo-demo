@@ -10,6 +10,14 @@
     <modules>
         <module>demo-api</module>
         <module>container</module>
+        <module>registry</module>
+        <module>transport</module>
+        <module>protocol</module>
+        <module>serialization</module>
+        <module>proxy</module>
+        <module>route</module>
+        <module>loadbalance</module>
+        <module>onfail</module>
     </modules>
     <packaging>pom</packaging>
 

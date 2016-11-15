@@ -9,8 +9,13 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>demo-api</artifactId>
+    <artifactId>protocol</artifactId>
     <packaging>pom</packaging>
+    <modules>
+        <module>dubbo</module>
+        <module>rmi</module>
+        <module>hessian</module>
+    </modules>
 
 
 </project>

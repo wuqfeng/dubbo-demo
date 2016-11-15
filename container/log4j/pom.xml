@@ -7,15 +7,11 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>tomcat</artifactId>
+    <artifactId>log4j</artifactId>
     <packaging>pom</packaging>
 
-    <name>tomcat</name>
+    <name>log4j</name>
     <url>http://maven.apache.org</url>
-    <modules>
-        <module>tomcat-provider</module>
-        <module>tomcat-consumer</module>
-    </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
