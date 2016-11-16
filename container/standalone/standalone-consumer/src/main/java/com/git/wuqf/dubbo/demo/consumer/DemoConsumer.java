@@ -16,6 +16,7 @@
 package com.git.wuqf.dubbo.demo.consumer;
 
 import com.git.wuqf.dubbo.demo.api.DemoService;
+import com.git.wuqf.dubbo.demo.model.User;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class DemoConsumer {
@@ -24,8 +25,12 @@ public class DemoConsumer {
 			ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("classpath:dubbo-demo-*.xml");
 			context.start();
 			DemoService demoService = (DemoService) context.getBean("demoService");
+
 			String hello = demoService.sayHello("wuqf");
 			System.out.println(hello);
+			User user=new User(1,"wuqf",11);
+			user= demoService.updateUserInfo(user);
+			System.out.println(user.toString());
 	}
 
 }
