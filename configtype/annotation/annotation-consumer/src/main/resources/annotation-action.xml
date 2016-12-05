@@ -5,10 +5,6 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
 	http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
 
-    <!--<bean class="com.git.wuqf.DemoAction" init-method="start">-->
-        <!--<property name="demoService" ref="demoService"/>-->
-    <!--</bean>-->
-
     <dubbo:reference id="demoService" interface="com.git.wuqf.dubbo.demo.api.DemoService"/>
 
 </beans>
